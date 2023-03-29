@@ -29,3 +29,35 @@ Choose the region for the edge server to connect to:
 +------------------------+
 | 7   | africa-south     |
 +------------------------+
+
+select =>  (4):
+
+
+
+Tunnel configuration:
+  Hostname: vigilant-wind-64541.pktriot.net
+  Server: australia-32312.packetriot.net
+  IPv4: 139.180.171.110
+  IPv6: <nil>
+
+Start the tunnel and visit URL to check its working:
+  pktriot --config C:\Users\surya\.pktriot\config.json start
+  https://vigilant-wind-64541.pktriot.net
+
+Detailed help and step-by-step tutorials:
+  https://docs.packetriot.com
+  https://packetriot.com/tutorials.
+
+Need more support?
+  Email: support@packetriot.com
+  Twitter: @packetriot (please follow us, we like new friends :)
+  
+  
+  
+ _________________________________________________________________________
+ 
+ CHANGING TUNNEL NAME :+
+ C:\Users\surya>pktriot.exe edit --name "surya_tunnel"
+Tunnel name updated
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
